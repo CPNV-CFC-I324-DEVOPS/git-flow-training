@@ -92,46 +92,49 @@ git log --graph --oneline --decorate --all
 ```
 
 ```
-* e7b9aa2 (HEAD -> feature/f4) build:
-*   08c8266 (develop) Merge tag '1.0.1' into develop
-|\  
-| *   3705ab0 (tag: 1.0.1, main) Merge branch 'hotfix/1.0.1'
+* 5690970 (HEAD -> feature/f4) build:
+*   f218723 (develop) Merge tag '1.0.1' into develop
+|\
+| *   385234d (tag: 1.0.1, main) Merge branch 'hotfix/1.0.1'
 | |\  
-| | * f9cb959 refactor:
-| | * c59f1cb fix:
-| | * 30100c1 test:
-| |/  
-* | b7ac430 docs:
-* | d6cd1a8 Merge tag '1.0.0' into develop
-|\| 
-| *   9a7596c (tag: 1.0.0) Merge branch 'release/1.0.0'
+| | * 14e8da9 refactor:
+| | * 112a123 fix:
+| | * 066a152 test:
+| |/
+* | 8698be5 docs:
+* |   94d9037 Merge branch 'feature/f2' into develop
+|\ \
+| * | ab38e29 fix:
+| * | 497e9ed feat:
+| * | 9bbed8c feat:
+| * | 7f3dc3a test:
+* | |   3283e16 Merge tag '1.0.0' into develop
+|\ \ \
+| |/ /  
+|/| /
+| |/
+| *   82f874b (tag: 1.0.0) Merge branch 'release/1.0.0'
 | |\  
-| | * d14e3a9 refactor:
-| | * 96aeb8b fix:
-| | * ddaaded fix:
-| |/  
-|/|   
-* |   ca8fbaf Merge branch 'feature/f3' into develop
-|\ \  
-| * | 7b640e8 fix:
-| * | 7a9a7ee feat:
-| * | 5c7e1cc test:
-|/ /  
-| | * d31cbe5 (feature/f2) fix:
-| | * 4d42445 feat:
-| | * 7958fab feat:
-| | * 5c9cc9a test:
-| |/  
-|/|   
-* |   1ed9fea Merge branch 'feature/f1' into develop
-|\ \  
-| |/  
-|/|   
-| * f0c89d7 refactor:
-| * 0db9f3d feat:
-| * ce72f67 test:
-|/  
-* fffaf64 chore: readme and gitignore
+| | * 3e03746 refactor:
+| | * 3e03746 refactor:
+| | * 7243450 fix:
+| | * bcf8157 fix:
+| |/
+|/|
+| | * a04b01f (feature/f3) fix:
+| | * 2e9ee16 feat:
+| | * 9f32b0b test:
+| |/
+|/|
+* |   b5e5a74 Merge branch 'feature/f1' into develop
+|\ \
+| |/
+|/|
+| * c6fe7d9 refactor:
+| * df5db44 feat:
+| * 8595822 test:
+|/
+* 243a401 chore: readme and gitignore
 ```
 
 ![ProjectTree-Expected](./img/expected-tree.png)
