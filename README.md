@@ -1,26 +1,12 @@
-# GRP1 - Evaluation pratique 2025 - Gitflow
+# I324 - Gitflow - Training
 
 ## Enoncé
 
-Lors de cette épreuve, nous allons valider les compétences suivantes:
+Lors de cet exercice, nous allons entraîner les compétences suivantes:
 
 * utilisation des commandes git de base
 * application correcte du git-flow (nvie)
 * lecture et analyse d'un arbre (tree) produit par git-flow
-
-## Moyens à disposition
-
-| Critère    | Valeur |
-| -------- | ------- |
-| Accès internet | oui |
-| Travail collaboratif, IA | non |
-| Temps à disposition | 45 min |
-
-## Pondération et barême
-
-Cette évaluation vaut pour 50% de la note du module.
-
-Le barême est l'habituel [nbPtsObtenus/nbPtsMaximum]/5*1
 
 ---
 
@@ -69,7 +55,7 @@ git pull
 
 * Les "commits" rouges sont ceux déjà présents. Les autres sont à produire à l'aide de git.
 
-#### Critères d'évaluation
+#### Critères d'auto-évaluation
 
 | Critère    | Valeur | Pondération |
 | -------- | ------- | --- |
@@ -138,10 +124,5 @@ git log --graph --oneline --decorate --all
 ```
 
 ![ProjectTree-Expected](./img/expected-tree.png)
-
-## Modalités de livraison
-
-* Une fois l'exercice terminé, synchronisez correctement votre dépôt local avec votre dépôt distant.
-* Vous notifiez votre livraison à l'aide d'un message privé via teams à votre enseignant.
   *  Intégrez le fichier "response.md" qui contiendra les commandes nécessaires pour recréer l'arbre demandé.
   *  Autoévaluation : Mentionnez la note que vous pensez obtenir.
